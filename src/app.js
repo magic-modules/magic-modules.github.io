@@ -5,7 +5,7 @@ module.exports = {
     logotext: '@magic-modules',
     logo: '/logo.png',
     menu: [
-      { to: '/#magic-modules', text: 'magic-modules' },
+      { to: '/#gl-magic-modules', text: 'magic-modules' },
     ],
   },
 }
