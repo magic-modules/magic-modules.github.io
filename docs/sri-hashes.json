@@ -1,0 +1,14 @@
+{
+  "css": "sha384-UFuHzkWBZt4bU5ieVxqRYiK7MsktSH9hOhUd6UaIXnzAl7JsIW4kKjrtXNNQMCnv",
+  "js": "sha384-zHDp82UAGYIJB9Ymcp807h1GsytEVl0XBNa6MlKDCSyYvktlPrtUZ4uyOGchY7JX",
+  "pages": {
+    "/magic-modules.github.io/": "sha384-xa4jB62oV0qUQ29IDJZ4x7dStl085MSRKueL7mWQuwYHC808mFQ5agxHUsEgj1Qx",
+    "/magic-modules.github.io/404/": "sha384-1+3Gh6FgawHUlQ6ciH3VGA21Wx8YhfX60OgKYz4M6nLDLMQ5nlyC1rfKL7ImjUtX"
+  },
+  "static": {
+    "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
+    "/logo.png": "sha384-HYxw554gYy4PTVFMSplAr7DfrbBMkH8h2gaIQKzxzdaf/dQGht3P6kvTo7Iy1xaj",
+    "/robots.txt": "sha384-+UA30XSape+kiEIuZE+il+iOIEXpSyTOfj0nqnYwZxREqeresfaVZyhh+Rb5DIUv",
+    "/sitemap.xml": "sha384-Wpa/mOJYdKWMN1d5G+RHOqEXt42aXyHe52kUACOL0Sj8chmS7w0IG9j6AWEsvFJB"
+  }
+}
