@@ -3,6 +3,13 @@
   "version": "0.23.5",
   "main": "index.js",
   "private": true,
+  "author": "Wizards & Witches",
+  "description": "@magic-modules github page.",
+  "license": "AGPL-3.0",
+  "homepage": "https://magic-modules.github.io",
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "build": "NODE_ENV=production magic build",
@@ -21,10 +28,8 @@
     "@magic-modules/module-list": "github:magic-modules/module-list",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.12"
+    "@magic/test": "0.1.6"
   },
-  "author": "Wizards & Witches",
-  "description": "@magic-modules github page.",
   "keywords": [
     "magic",
     "static",
@@ -32,7 +37,6 @@
     "page",
     "generator"
   ],
-  "license": "AGPL-3.0",
   "contributors": [
     {
       "name": "jascha ehrenreich",
