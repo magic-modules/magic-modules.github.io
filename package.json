@@ -1,7 +1,6 @@
 {
   "name": "magic-modules.github.io",
   "version": "0.23.5",
-  "main": "index.js",
   "private": true,
   "author": "Wizards & Witches",
   "description": "@magic-modules github page.",
