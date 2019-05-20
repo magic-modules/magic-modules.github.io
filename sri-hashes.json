@@ -1,14 +1,14 @@
 {
-  "css": "sha384-UFuHzkWBZt4bU5ieVxqRYiK7MsktSH9hOhUd6UaIXnzAl7JsIW4kKjrtXNNQMCnv",
-  "js": "sha384-zHDp82UAGYIJB9Ymcp807h1GsytEVl0XBNa6MlKDCSyYvktlPrtUZ4uyOGchY7JX",
+  "css": "sha384-oNLLwlD4P5Jmna/fDzeZDWSvLRIlYF7Js9RVBEcI6+VUfw4WbCqmfQR7kG3u5fyP",
+  "js": "sha384-0o7PEMZhxWGJPz8OQh/y3bfj1+VJCAk2sa7SfbZ+KUOd0+vxJGlBTwS6sYjfYYtf",
   "pages": {
-    "/magic-modules.github.io/": "sha384-xa4jB62oV0qUQ29IDJZ4x7dStl085MSRKueL7mWQuwYHC808mFQ5agxHUsEgj1Qx",
-    "/magic-modules.github.io/404/": "sha384-1+3Gh6FgawHUlQ6ciH3VGA21Wx8YhfX60OgKYz4M6nLDLMQ5nlyC1rfKL7ImjUtX"
+    "/magic-modules.github.io/": "sha384-IKgPlvCSyWbTpCLa4t+G0gYs+kHDtcAna3SU2ss8hA0RPsadUg9fpS5shcfYyAHi",
+    "/magic-modules.github.io/404/": "sha384-ypBzMskKxrMtBr/Ur++ErzyeaxfWwD5pVcEYAfPwHJ64A7sQrD33ioR4eDL+7U1L"
   },
   "static": {
     "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
-    "/logo.png": "sha384-HYxw554gYy4PTVFMSplAr7DfrbBMkH8h2gaIQKzxzdaf/dQGht3P6kvTo7Iy1xaj",
+    "/logo.png": "sha384-us4OhGfbKl2FeBcaKUVfI2t1a2ZtgQHeYBKlcGxVIRcJAvQNwEf4l4mQVXxO1N79",
     "/robots.txt": "sha384-+UA30XSape+kiEIuZE+il+iOIEXpSyTOfj0nqnYwZxREqeresfaVZyhh+Rb5DIUv",
-    "/sitemap.xml": "sha384-Wpa/mOJYdKWMN1d5G+RHOqEXt42aXyHe52kUACOL0Sj8chmS7w0IG9j6AWEsvFJB"
+    "/sitemap.xml": "sha384-rYHyozBRPw8G4a49+cKzCBSAjaIGwHv2bzlbPBZbrV/ZnEXSSpADdEQluGGUvPFq"
   }
 }
