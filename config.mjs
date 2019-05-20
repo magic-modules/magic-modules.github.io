@@ -6,4 +6,6 @@ export default {
   },
   PUBLIC: 'docs',
   THEME: 'docs',
+
+  WEB_ROOT: '/',
 }
