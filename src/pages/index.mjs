@@ -1,4 +1,4 @@
-module.exports = () => [
+export const View = () => [
   h2(Link({ to: 'https://magic.github.io' }, '@magic')),
   p('magic is a module/component based generator for static pages and serverless deployments.'),
   p(
@@ -8,5 +8,5 @@ module.exports = () => [
 
   h2({ id: 'magic-modules' }, Link({ to: 'https://github.com/magic-modules/' }, '@magic-modules')),
   p('modules are the building blocks of @magic.'),
-  ModuleList,
+  ModuleList(),
 ]
