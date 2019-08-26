@@ -28,7 +28,7 @@
     "@magic-modules/module-list": "github:magic-modules/module-list",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.1.13"
+    "@magic/test": "0.1.14"
   },
   "keywords": [
     "magic",
