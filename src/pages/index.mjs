@@ -8,6 +8,4 @@ export const View = state => [
   GitBadges('magic/core'),
 
   ModuleList(),
-
-  LightSwitch(state),
 ]

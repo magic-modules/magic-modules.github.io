@@ -9,5 +9,5 @@ export default {
 
   WEB_ROOT: '/',
   URL: 'magic-modules.github.io',
-  HOIST: 'Gdpr',
+  HOIST: ['Gdpr', 'LightSwitch'],
 }
