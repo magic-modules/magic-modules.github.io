@@ -34,7 +34,7 @@ export const View = ({ root }) =>
 
 export const style = vars => ({
   '.cubes': {
-    stroke: vars.primary && vars.primary.neutral || '#639',
+    stroke: (vars.primary && vars.primary.neutral) || '#639',
     strokeWidth: '20',
     fill: 'none',
 
@@ -43,6 +43,6 @@ export const style = vars => ({
     },
   },
   '.bg': {
-    fill: vars.primary && vars.primary.neutral || '#639',
+    fill: (vars.primary && vars.primary.neutral) || '#639',
   },
 })
