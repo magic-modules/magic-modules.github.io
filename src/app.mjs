@@ -2,6 +2,8 @@ export const state = {
   title: '@magic-modules',
   description: '@magic-modules. building blocks for your @magic app.',
 
+  branding: ['@magic', '-modules'],
+
   menu: [
     { to: '/', text: 'about' },
     { to: '/#gl-magic-modules', text: 'modules' },
