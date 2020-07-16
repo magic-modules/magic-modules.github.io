@@ -1,54 +1,47 @@
 export const View = ({ root }) =>
   Link({ to: root, class: 'Logo' }, [
-    svg({ viewBox: '0 0 1500 1125', height: '33', width: '44' }, [
+    svg({ viewBox: '0 0 512 444' }, [
+      path({ d: 'M512 444L256 0 0 444z', fill: '#663695' }),
+      circle({ cx: '256', cy: '294', r: '130', fill: '#fff' }),
       path({
-        class: 'bg',
-        d:
-          'M752 0A739 739 0 0068 434a770 770 0 0029 691h1313c189-337 72-819-264-1019A778 778 0 00752 0z',
-        fill: '#639',
+        d: 'M256 81v53m184 270l-43-29M72 404l43-29',
+        class: 'stroke round white l',
       }),
       path({
-        class: 'pyramid',
-        d:
-          'M754 11L99 1103h1313zm0 144l214 354c-114-104-319-93-425 0zM435 684c-43 144 81 308 193 351H223zm641 0l212 351H883a307 307 0 00193-351z',
+        d: 'M234 346l-2-84 74-33 M311 346l1-83-76-35 M232 262l40 19 74-35m-74 35v88m73-84l-74 41-63-36 M186 260l1 39zm-33-17l33 17 38-14',
+        class: 'stroke sm'
       }),
       path({
-        class: 'cubes slim',
-        d: 'M667 684l95 45 176-83M762 729v208M937 739l-176 96-151-85',
+        d: 'M225 271l7-3m-36 28l1 27 75 47 72-45 2-79-74-33-36 15 1 32 M154 281l33 19 38-17-1-37-36-16-37 13z',
+        class: 'stroke md',
       }),
-      path({ class: 'cubes slim', d: 'M673 883l-6-200 177-79' }),
-      path({ class: 'cubes slim', d: 'M856 882l1-196-180-83' }),
-      path({
-        class: 'cubes',
-        d: 'M650 705l17-7M583 764l2 63 177 113 172-108 5-188-177-78-85 37 3 75',
-      }),
-      path({
-        class: 'cubes',
-        d: 'M482 729l79 45 89-42-2-87-84-39-88 31z',
-      }),
-      path({
-        class: 'cubes',
-        d: 'M558 679l3 91zM480 639l78 40 91-35',
-      }),
-    ]),
+    ])
   ])
 
 export const style = vars => ({
-  '.cubes': {
-    stroke: (vars.primary && vars.primary.neutral) || '#639',
-    strokeWidth: '20',
+  '.stroke': {
     fill: 'none',
+    stroke: '#639',
 
-    '&.slim': {
-      strokeWidth: '15',
+    '&.white': {
+      stroke: '#fff',
     },
-  },
 
-  '.bg': {
-    fill: (vars.primary && vars.primary.neutral) || '#639',
-  },
+    '&.sm': {
+      strokeWidth: 5,
+    },
 
-  '.pyramid': {
-    fill: vars.white,
+    '&.md': {
+      strokeWidth: 9,
+    },
+
+    '&.l': {
+      strokeWidth: 15,
+    },
+
+    '&.round': {
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+    },
   },
 })
