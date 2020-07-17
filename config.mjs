@@ -10,4 +10,6 @@ export default {
   WEB_ROOT: '/',
   URL: 'magic-modules.github.io',
   HOIST: ['Gdpr', 'LightSwitch'],
+
+  IGNORED_STATIC: 'xcf',
 }
