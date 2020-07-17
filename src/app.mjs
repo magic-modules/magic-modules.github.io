@@ -4,6 +4,21 @@ export const state = {
 
   branding: ['@magic', '-modules'],
 
+  seo: {
+    name: '@magic-modules',
+    url: `https://magic-modules.github.io/`,
+    about:
+      'magic is a jamstack generator. @magic-modules are components including html, css, actions and other functionality.',
+    image: `https://magic-modules.github.io/magic-modules-preview.jpg`,
+    author: {
+      '@type': 'person',
+      name: 'Jascha Ehrenreich',
+      jobTitle: 'Technomancer',
+      image: 'https:/jaeh.at/img/jascha.ehrenreich.jpg',
+      url: 'https://jaeh.at',
+    },
+  },
+
   menu: [
     { to: '/', text: 'about' },
     { to: '/#gl-magic-modules', text: 'modules' },
