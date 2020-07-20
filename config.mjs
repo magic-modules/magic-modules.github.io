@@ -9,7 +9,7 @@ export default {
 
   WEB_ROOT: '/',
   URL: 'magic-modules.github.io',
-  HOIST: ['NoSpy', 'LightSwitch'],
+  HOIST: ['LightSwitch', 'NoSpy'],
 
   IGNORED_STATIC: 'xcf',
 }
