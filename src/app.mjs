@@ -47,7 +47,7 @@ export const state = {
     three: {
       title: 'social',
       menu: [
-        { to: 'https://npmjs.com/org/magic-modules/', text: 'npm' },
+        { to: 'https://www.npmjs.com/org/magic-modules/', text: 'npm' },
         { to: 'https://github.com/magic-modules/', text: 'github' },
       ],
     },
